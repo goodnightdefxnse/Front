@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Front/static/css/main.62568226.css",
+    "main.js": "/Front/static/js/main.fe27cdaf.js",
+    "static/media/image.png": "/Front/static/media/image.449829cc0e931a3d77be.png",
+    "static/media/ball.png": "/Front/static/media/ball.99552e74662f801ff98a.png",
+    "static/media/vk-svgrepo-com.svg": "/Front/static/media/vk-svgrepo-com.30c5887e554b12f9dcdba8be956db848.svg",
+    "static/media/ground.svg": "/Front/static/media/ground.86dfb9811b0f105681ec823153b04e47.svg",
+    "static/media/plant.svg": "/Front/static/media/plant.e8899d11dca399b9028f15f6cf700133.svg",
+    "static/media/basket.svg": "/Front/static/media/basket.df6811b62ef638490b4bbc25b594344a.svg",
+    "static/media/telegram-alt-svgrepo-com.svg": "/Front/static/media/telegram-alt-svgrepo-com.ebbee6974825e5e59c98c7ce9654fe6d.svg",
+    "static/media/menu.svg": "/Front/static/media/menu.2737544ecc8f17bcb401a2a1fc740241.svg",
+    "index.html": "/Front/index.html",
+    "static/media/close-svgrepo-com.svg": "/Front/static/media/close-svgrepo-com.5c6cd17c4693737efbb3c8401e70666e.svg",
+    "static/media/4.svg": "/Front/static/media/4.42a432fd77cb8e136719231b323073bb.svg",
+    "main.62568226.css.map": "/Front/static/css/main.62568226.css.map",
+    "main.fe27cdaf.js.map": "/Front/static/js/main.fe27cdaf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62568226.css",
+    "static/js/main.fe27cdaf.js"
+  ]
+}
