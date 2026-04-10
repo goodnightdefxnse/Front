@@ -1,0 +1,29 @@
+/* frontend/src/components/ProductFilters/ProductFilters.module.scss */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 32px;
+  align-items: flex-end;
+}
+
+.filters > div {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  background: var(--white);
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+}
+
+.filters label {
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .filters > div {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}

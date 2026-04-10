@@ -1,0 +1,28 @@
+/* frontend/src/components/Banner/Banner.module.scss */
+.banner {
+  margin-top: 0;
+  padding: 100px 40px;
+  background: linear-gradient(135deg, #2A9D8F 0%, #264653 100%);
+  border-radius: 0 0 32px 32px;
+  text-align: center;
+  color: white;
+
+  @media (max-width: 900px) {
+    padding: 60px 20px;
+  }
+
+  @media (max-width: 600px) {
+    padding: 40px 16px;
+  }
+}
+
+.title {
+  font-size: 4rem;
+  margin-bottom: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+
+  @media (max-width: 900px) {
+    font-size: 2.5rem;
+  }
+}

@@ -1,0 +1,46 @@
+/* frontend/src/App.scss */
+:root {
+  --primary: #2A9D8F;
+  --primary-dark: #21867a;
+  --secondary: #E9C46A;
+  --secondary-dark: #d4b15c;
+  --dark: #264653;
+  --light: #F8F9FA;
+  --gray: #6C757D;
+  --light-gray: #E9ECEF;
+  --white: #FFFFFF;
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.08);
+  --shadow-hover: 0 12px 28px rgba(0, 0, 0, 0.12);
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --transition: all 0.2s ease;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 40px;
+  margin-top: 80px;
+
+  @media screen and (max-width: 1200px) {
+    padding: 0 30px;
+    margin-top: 60px;
+  }
+
+  @media screen and (max-width: 900px) {
+    padding: 0 20px;
+    margin-top: 40px;
+  }
+
+  @media screen and (max-width: 600px) {
+    padding: 0 16px;
+    margin-top: 32px;
+  }
+}

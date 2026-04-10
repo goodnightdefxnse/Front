@@ -1,0 +1,53 @@
+/* frontend/src/UI/Text/Text.module.scss */
+.black { color: var(--dark); }
+.white { color: var(--white); }
+.green { color: var(--primary); }
+.gray { color: var(--gray); }
+.lightGray { color: var(--light-gray); }
+
+.h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  @media (max-width: 900px) { font-size: 2rem; }
+  @media (max-width: 600px) { font-size: 1.75rem; }
+}
+
+.h2 {
+  font-weight: 600;
+  font-size: 1.75rem;
+  @media (max-width: 900px) { font-size: 1.5rem; }
+  @media (max-width: 600px) { font-size: 1.25rem; }
+}
+
+.p {
+  font-weight: 400;
+  font-size: 1rem;
+  @media (max-width: 900px) { font-size: 0.9rem; }
+}
+
+.thin { font-weight: 300; }
+.p-smaller { font-size: 0.875rem; }
+.p-bold { font-weight: 600; }
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  @media (max-width: 900px) { font-size: 2rem; }
+}
+
+.discont_price {
+  text-decoration: line-through;
+  color: var(--gray);
+  margin-left: 8px;
+}
+
+.discount_percent,
+.discount_percent_left {
+  background: var(--secondary);
+  color: var(--dark);
+  padding: 4px 8px;
+  border-radius: 40px;
+  font-weight: 600;
+  font-size: 0.75rem;
+  display: inline-block;
+}

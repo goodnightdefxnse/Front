@@ -1,0 +1,40 @@
+/* frontend/src/components/ProductInfo/ProductInfo.module.scss */
+.product {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.product img {
+  width: 100%;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+}
+
+.product_categories {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.product_categories > div {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.counter_block {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+  .product {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}

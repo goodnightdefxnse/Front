@@ -1,0 +1,53 @@
+/* frontend/src/UI/Counter/Counter.module.scss */
+.counter {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--light-gray);
+  border-radius: var(--radius-sm);
+  background: var(--white);
+  overflow: hidden;
+}
+
+.counter p {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: var(--transition);
+  margin: 0;
+  user-select: none;
+}
+
+.counter p:first-child,
+.counter p:last-child {
+  background: var(--light);
+  color: var(--dark);
+}
+
+.counter p:first-child:hover,
+.counter p:last-child:hover {
+  background: var(--primary);
+  color: white;
+}
+
+.counter p:nth-child(2) {
+  width: 50px;
+  cursor: default;
+  background: var(--white);
+  color: var(--dark);
+}
+
+@media (max-width: 600px) {
+  .counter p {
+    width: 32px;
+    height: 32px;
+    font-size: 1rem;
+  }
+  .counter p:nth-child(2) {
+    width: 40px;
+  }
+}

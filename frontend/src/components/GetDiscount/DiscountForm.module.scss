@@ -1,0 +1,51 @@
+/* frontend/src/components/GetDiscount/DiscountForm.module.scss */
+.discountForm {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+  border-radius: var(--radius-md);
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.discountForm h1 {
+  grid-column: span 2;
+  text-align: center;
+  color: white;
+}
+
+.discountForm img {
+  width: 100%;
+  max-width: 300px;
+  justify-self: center;
+}
+
+.discountForm form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.discountForm input {
+  padding: 12px;
+  border-radius: var(--radius-sm);
+  border: none;
+  background: rgba(255,255,255,0.9);
+}
+
+.discountForm button {
+  background: var(--secondary);
+  color: var(--dark);
+}
+
+@media (max-width: 900px) {
+  .discountForm {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .discountForm h1 {
+    grid-column: span 1;
+  }
+}

@@ -1,0 +1,51 @@
+/* frontend/src/components/Footer/Footer.module.scss */
+.contacts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  margin: 32px 0;
+}
+
+.contact {
+  background: var(--white);
+  padding: 20px;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+
+.contact:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-hover);
+}
+
+.logos {
+  display: flex;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.logos img {
+  width: 32px;
+  height: 32px;
+  transition: var(--transition);
+}
+
+.logos img:hover {
+  transform: scale(1.1);
+}
+
+.map {
+  width: 100%;
+  height: 300px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  margin: 32px 0;
+  box-shadow: var(--shadow-sm);
+}
+
+@media (max-width: 600px) {
+  .map {
+    height: 200px;
+  }
+}

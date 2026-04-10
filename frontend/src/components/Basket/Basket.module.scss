@@ -1,0 +1,39 @@
+/* frontend/src/components/Basket/Basket.module.scss */
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.title_link p {
+  color: var(--primary);
+}
+
+.empty_basket {
+  text-align: center;
+  padding: 48px;
+  background: var(--white);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.basket {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 32px;
+}
+
+.basket_list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (max-width: 900px) {
+  .basket {
+    grid-template-columns: 1fr;
+  }
+}

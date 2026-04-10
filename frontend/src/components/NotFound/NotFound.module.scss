@@ -1,0 +1,26 @@
+/* frontend/src/components/NotFound/NotFound.module.scss */
+.not_found {
+  text-align: center;
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+
+.not_found div {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.not_found img {
+  max-width: 120px;
+}
+
+@media (max-width: 600px) {
+  .not_found img {
+    max-width: 80px;
+  }
+}
